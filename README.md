@@ -1,11 +1,12 @@
 # Edit Roblox Place
 Simple command line application to open a place in Roblox Studio from the command line.
+In this fork i added a GET request to get UniverseId and added it when launching a place.
 
 ## Installation
 You'll need Rust and Cargo installed.
 
 ```bash
-cargo install --git https://github.com/rojo-rbx/edit-roblox-place
+cargo install --git https://github.com/f4yking/edit-roblox-place
 ```
 
 ## Usage
