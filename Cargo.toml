@@ -1,6 +1,6 @@
 [package]
 name = "edit-roblox-place"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Lucien Greathouse <me@lpghatguy.com>"]
 edition = "2018"
 
@@ -9,3 +9,7 @@ edition = "2018"
 [dependencies]
 opener = "0.4.0"
 structopt = "0.2.18"
+serde = { version = "1.0.197", features = ["derive"] }
+serde_json = "1.0.115"
+reqwest = { version = "0.12", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
